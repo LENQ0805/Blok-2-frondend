@@ -73,12 +73,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **je Focus:** <responsive>
 
-**je opdracht:** <https://nl.pinterest.com/>
+**je opdracht:** <https://www.ktm.com/en-nl.html>
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/homescreen.png"width="375px"alt="omschrijving van de pagina>
+<img src="images/home.png"width="375px"alt="omschrijving van de pagina>
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/personal.PNG" width="375px" alt="omschrijving van de pagina>
+<img src="images/detailpaginaKTM.PNG" width="375px" alt="omschrijving van de pagina>
+
+**Link naar de detail pagina: https://www.ktm.com/en-nl/models/supermoto/ktm-690-smc-r-2020.html**
