@@ -1,5 +1,5 @@
 # Procesverslag
-**Palenque Groot:** -jouw naam-
+**Palenque Groot:**
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -62,8 +62,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Breakdownschets (week 1)
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
-
+<img src="images/breakdownsheet_palenque_groot_klas201.jpg"width="375px"alt="breakdownsheet>
 
 
 ## Intake (week 1)
