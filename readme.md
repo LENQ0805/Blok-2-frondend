@@ -62,24 +62,23 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Breakdownschets (week 1)
 
-<img src="images/breakdownsheet_palenque_groot_klas201.jpg"width="375px"alt="breakdownsheet>
-
+<img src="images/breakdownsheet.jpg"width="375px"alt="omschrijving van de pagina">
 
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**je startniveau:** <Blauwrood>
+**je startniveau:** Blauwrood.
 
-**je Focus:** <responsive>
+**je Focus:** responsive.
 
-**je opdracht:** <https://www.ktm.com/en-nl.html>
+**je opdracht:** (https://www.ktm.com/en-nl.html)
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/home.png"width="375px"alt="omschrijving van de pagina>
+<img src="images/home.png"width="375px"alt="omschrijving van de pagina">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/detailpaginaKTM.PNG" width="375px" alt="omschrijving van de pagina>
+<img src="images/detailpaginaKTM.PNG" width="375px" alt="omschrijving van de pagina">
 
-**Link naar de detail pagina: https://www.ktm.com/en-nl/models/supermoto/ktm-690-smc-r-2020.html**
+**Link naar de detail pagina:** (https://www.ktm.com/en-nl/models/supermoto/ktm-690-smc-r-2020.html)
