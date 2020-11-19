@@ -1,5 +1,5 @@
 # Procesverslag
-**Palenque Groot:**
+**Auteur:** -jouw naam-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -62,23 +62,27 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Breakdownschets (week 1)
 
-<img src="images/breakdownsheet.jpg"width="375px"alt="omschrijving van de pagina">
+-uitwerken voor de 1e werkgroep - eind van de eerste week-
+
+
 
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**je startniveau:** Blauwrood.
+**Je startniveau:** -kies uit zwart, rood óf blauw-
 
-**je Focus:** responsive.
+**Je focus:** -kies uit responsive óf surface plane-
 
-**je opdracht:** (https://www.ktm.com/en-nl.html)
+**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/home.png"width="375px"alt="omschrijving van de pagina">
+<img src="images/home1.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/home2.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/home3.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/home4.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/home5.PNG" width="375px" alt="omschrijving van de pagina">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/detailpaginaKTM.PNG" width="375px" alt="omschrijving van de pagina">
-
-**Link naar de detail pagina:** (https://www.ktm.com/en-nl/models/supermoto/ktm-690-smc-r-2020.html)
+<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
