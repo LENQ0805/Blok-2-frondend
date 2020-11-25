@@ -48,11 +48,29 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Palenque Groot
+    - Moet ik de carousel/slider/button maken met gewoon css?
+    - Moet ik de foto’s van insta “life” er in zetten?
+    - Moeten de links binnen je eigen website terug linken naar de andere pagina?
+
+| Sarah de Moes
+    - hoe zet ik een hartje op me foto’s en hoe bewerk ik dit goed met Javascript
+    - Ik twijfel of me site wel goed responsive is, heb ik wel de juiste code gebruikt hiervoor
+    - Hoe ga ik de tab bar verwerken in me website?
+    - Hoe stijl ik de dropdown list met de foto’s etc er in op me detailpagina
+
+| Susan
+    - Hoe voeg je een eigen lettertype toe? (Ik heb een lettertype dat eindigt op .otf)
+    - Hoe kun je het beste witruimte oplossen? Is dat alleen te doen met position:absolute?
+    - Hoe maak je een uitklapfooter
+    - Hoet in gidhub ook de opdrachten komen te staan wat je hebt gemaakt in codepen?
+
+| Suzanne
+    - Ik wil graag weten of ik mijn talen selectie onderin de footer moet maken en hoe?
+    - Of ik de achtergrond van de kerst banner moet uitwerken?
+
+| Casper
+
 
 ### Verslag van meeting
 

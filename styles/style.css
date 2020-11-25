@@ -1,5 +1,231 @@
-/* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+html,
+* {
+    margin: 0;
 }
 
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+hr {
+    color: white;
+}
+
+body {
+    background-color: white;
+    width: 100vw !important;
+
+}
+
+main{
+  padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+
+img {
+    width: 100%;
+}
+
+nav{
+    display: none;
+}
+
+
+/*A linkies*/
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+/*A met zwarte achtergrond*/
+main > a:nth-of-type(1) > div, main > a:nth-of-type(2) > div{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+font-weight: 900;
+}
+
+main > a:nth-of-type(1) > div > p, main > a:nth-of-type(2) > div > p{
+    font-size: 2em;
+    width: 10em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+/*a van de witte achtergrond*/
+
+main > a:nth-of-type(3) > div, main > a:nth-of-type(4) > div{
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+main > a:nth-of-type(3) > div > p, main > a:nth-of-type(4) > div > p{
+    font-size: 2em;
+    width: 10em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+
+
+/*einde A linkies*/
+
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    border: solid;
+    border-color: #ff6602;
+    color: #ff6602;
+
+
+}
+
+.opacity {
+    display: flex;
+    margin-left: 2em;
+    opacity: 0.5;
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/*4 foto's in vierkantje*/
+.vierkantje{
+display: flex;
+    flex-wrap: wrap
+}
+
+.vierkantje img{
+    width: 45vw;
+    height: 45vw;
+}
+
+
+/*CSS footer*/
+
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    padding-left: 5vw;
+    padding-right: 5vw:
+}
+
+
+
+/*dropdown footer */
+
+
+.dropbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.connectfooter{
+    padding: 16px;
+    font-size: 30px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+   width: 90vw;
+
+}
+
+.dropdown > div > div{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown > div > div> a{
+    color: white;
+    background-color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropDown1:hover .dropdown-content{
+display:block !important;
+position: relative !important;
+}
+
+/*Media links*/
+.media ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1em;
+    width: 90vw;
+    padding-left: 0;
+}
+.media li{
+    display: flex;
+}
+
+.footerimg {
+    width: 20px;
+}
+
+hr{
+    margin: 2em 1em 2em 1em;
+}
+
+.copyright {
+    display: flex;
+    text-align: center;
+    padding-top: 2em;
+    font-size: .7em;
+}
+
+
+/*back to top*/
+.btt {
+    display: flex;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #ff6602;
+    text-decoration: none;
+}
