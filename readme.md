@@ -1,13 +1,13 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** -Palenque Groot-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
+1. (https://cssreference.io/property/background-size/"css")
+2. (https://css-tricks.com/"css")
 3. -...-
 
 
@@ -39,10 +39,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
+Met de homepagina dan ik niet heel veel moeite, het kost mij gewoon heel veel tijd. Als ik iets ook niet snap kan ik het altijd aan daan en tim vragen. Vaak kom ik er na dan achter dat ik zelf ook niet goed gelezen heb. oeps!
 
-**Screenshot(s):**
+Wat wel even moeilijk was waren die sliders, ik wist niet goed hoe ik die moest maken. Bleek dus java script te zijn. Nu ik dat statisch mag neerzetten gaat het al weer wat vlotter.
+
+<img src="images/detailpag5.PNG" width="500px" alt="deel van de detailpagina">
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
+-Ik ben vergeten een screanshot te maken, maar ik denk dat ik op zo'n 40 a 50% zit/zat tijdens het vooruitgangs gesprek. Die slider achtige dingen waren grotendeels mijn detailpagina en liep daardoor ook wat meer achter.-
 
 ### Agenda voor meeting
 
@@ -52,6 +56,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
     - Moet ik de carousel/slider/button maken met gewoon css?
     - Moet ik de foto’s van insta “life” er in zetten?
     - Moeten de links binnen je eigen website terug linken naar de andere pagina?
+    - Je eigen lettertype toevoegen?
 
 | Sarah de Moes
     - hoe zet ik een hartje op me foto’s en hoe bewerk ik dit goed met Javascript

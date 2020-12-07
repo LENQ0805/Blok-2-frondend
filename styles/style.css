@@ -9,41 +9,129 @@ html,
     box-sizing: border-box;
 }
 
-hr {
-    color: white;
-}
 
 body {
     background-color: white;
     width: 100vw !important;
-
-}
-
-main{
-  padding-left: 5vw;
-    padding-right: 5vw;
+    font-family: 'Poppins', sans-serif;
 }
 
 
-img {
-    width: 100%;
+/* css voor de header*/
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    color: white;
+    background-size: cover;
+    background-image: url("../imageshome/header.png");
 }
 
-nav{
+.detail {
+    background-image: url("../imagesdetail/detail.jpg");
+}
+
+hr {
+    position: relative;
+    left: -8vw;
+    width: 100vw;
+}
+
+header > a:nth-of-type(1) {
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    background-color: #ff6602;
+    width: 5em;
+    height: 3em;
+    margin-top: 3em;
+}
+
+.adetail {
+    width: 8em !important;
+    margin-top: .5em !important;
+}
+
+header > p {
+    margin-top: 10em;
+}
+
+header > div {
+    display: flex;
+    width: 100vw;
+    flex-direction: row-reverse;
+}
+
+header > div > img {
+    height: 5em;
+    width: 5em;
+}
+
+nav {
     display: none;
 }
+/*einde css header*/
 
 
-/*A linkies*/
+/*css voor de main*/
 
-a{
+main {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+p, h2, h3, a, figcaption {
+    text-align: center;
+    margin:1em;
+}
+
+span {
+    font-size: 1.5em;
+    color:#ff6602;
+}
+
+main > div:nth-of-type(1),
+div:nth-of-type(3),
+div:nth-of-type(5),
+div:nth-of-type(7),
+div:nth-of-type(9),
+div:nth-of-type(12) {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -8vw;
+}
+
+img {
+    width: 60vw;
+}
+
+main > a:nth-of-type(2),
+main > a:nth-of-type(3) {
+    color:#ff6602;
+}
+
+
+/*A links*/
+
+a {
     text-decoration: none;
     color: black;
 
 }
 
 /*A met zwarte achtergrond*/
-main > a:nth-of-type(1) > div, main > a:nth-of-type(2) > div{
+main > a:nth-of-type(1) > div,
+main > a:nth-of-type(2) > div {
     width: 100%;
     background-color: black;
     color: white;
@@ -51,10 +139,11 @@ main > a:nth-of-type(1) > div, main > a:nth-of-type(2) > div{
     flex-direction: column;
     align-items: center;
     margin-bottom: 3em;
-font-weight: 900;
+    font-weight: 900;
 }
 
-main > a:nth-of-type(1) > div > p, main > a:nth-of-type(2) > div > p{
+main > a:nth-of-type(1) > div > p,
+main > a:nth-of-type(2) > div > p {
     font-size: 2em;
     width: 10em;
     margin-top: 2em;
@@ -62,35 +151,34 @@ main > a:nth-of-type(1) > div > p, main > a:nth-of-type(2) > div > p{
     text-align: center;
 }
 
-/*a van de witte achtergrond*/
-
-main > a:nth-of-type(3) > div, main > a:nth-of-type(4) > div{
+/*a met witte achtergrond*/
+main > a:nth-of-type(3) > div,
+main > a:nth-of-type(4) > div {
     width: 100%;
     background-color: white;
     color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 3em;
+    margin-bottom: 1.5em;
 }
 
-main > a:nth-of-type(3) > div > p, main > a:nth-of-type(4) > div > p{
-    font-size: 2em;
+main > a:nth-of-type(3) > div > p,
+main > a:nth-of-type(4) > div > p {
+    font-size: .8em;
+    font-weight: 600;
     width: 10em;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: .1em;
     text-align: center;
 }
-
-
-
-/*einde A linkies*/
-
-
-
-p {
-    font-family: 'Poppins', sans-serif;
+main > a:nth-of-type(3) > div > h2,
+main > a:nth-of-type(4) > div > h2 {
+    margin-top: 0.1em;
 }
+
+/*einde A links zwart/wit*/
+
 
 .signup {
     display: flex;
@@ -102,10 +190,24 @@ p {
     border: solid;
     border-color: #ff6602;
     color: #ff6602;
-
-
 }
 
+
+/*4 foto's in vierkantje*/
+.vierkantje {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.vierkantje img {
+    width: 45vw;
+    height: 45vw;
+}
+
+/*einde css homepage*/
+
+
+/*p boven de footer*/
 .opacity {
     display: flex;
     margin-left: 2em;
@@ -115,20 +217,7 @@ p {
     padding-bottom: 1em;
 }
 
-/*4 foto's in vierkantje*/
-.vierkantje{
-display: flex;
-    flex-wrap: wrap
-}
-
-.vierkantje img{
-    width: 45vw;
-    height: 45vw;
-}
-
-
 /*CSS footer*/
-
 
 footer {
     background-color: black;
@@ -138,60 +227,25 @@ footer {
     padding-right: 5vw:
 }
 
-
-
-/*dropdown footer */
-
-
-.dropbtn {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: black;
-    color: white;
-    padding: 16px;
-    font-size: 30px;
-    border: none;
-    cursor: pointer;
-}
-
-.connectfooter{
-    padding: 16px;
-    font-size: 30px;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
+/*div's grijse baan*/
+main > div:nth-of-type(2),
+div:nth-of-type(4),
+div:nth-of-type(6),
+div:nth-of-type(8),
+div:nth-of-type(10),
+div:nth-of-type(11) {
     position: relative;
-    display: inline-flex;
-    flex-direction: column;
-   width: 90vw;
-
-}
-
-.dropdown > div > div{
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    z-index: 1;
-}
-.dropdown > div > div> a{
-    color: white;
-    background-color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+    left: -5vw;
+    width: 100vw;
+    height: 3em;
+    background-color: lightgray;
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 
-.dropDown1:hover .dropdown-content{
-display:block !important;
-position: relative !important;
-}
-
-/*Media links*/
-.media ul{
+/*Media links footer*/
+.media ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -199,15 +253,16 @@ position: relative !important;
     width: 90vw;
     padding-left: 0;
 }
-.media li{
+
+.media li {
     display: flex;
 }
 
 .footerimg {
-    width: 20px;
+    width: 2em;
 }
 
-hr{
+hr {
     margin: 2em 1em 2em 1em;
 }
 
