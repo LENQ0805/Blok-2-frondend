@@ -1,0 +1,253 @@
+html,
+* {
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/*Css voor beide html pagina's*/
+
+body {
+    background-color: white;
+    width: 100vw !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+p, h2, h3, a, figcaption {
+    text-align: center;
+    margin:1em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    color: white;
+    background-size: cover;
+    background-image: url("../imageshome/header.png");
+}
+
+.detail {
+    background-image: url("../imagesdetail/detail.jpg");
+}
+
+hr {
+    position: relative;
+    left: -8vw;
+    width: 100vw;
+}
+
+header > a:nth-of-type(1) {
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    background-color: #ff6602;
+    width: 5em;
+    height: 3em;
+    margin-top: 6em;
+}
+
+.adetail {
+    width: 8em !important;
+    margin-top: .5em !important;
+}
+
+header > p {
+    margin-top: 10em;
+}
+
+header > div {
+    display: flex;
+    width: 100vw;
+    flex-direction: row-reverse;
+}
+
+header > div > img {
+    height: 5em;
+    width: 5em;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    display: none;
+}
+
+/*einde css voor beide html pagina's*/
+
+
+
+/*css homepage*/
+/*A links*/
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+/*A met zwarte achtergrond*/
+main > a:nth-of-type(1) > div,
+main > a:nth-of-type(2) > div {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+    font-weight: 900;
+}
+
+main > a:nth-of-type(1) > div > p,
+main > a:nth-of-type(2) > div > p {
+    font-size: 2em;
+    width: 10em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+/*a met witte achtergrond*/
+main > a:nth-of-type(3) > div,
+main > a:nth-of-type(4) > div {
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+main > a:nth-of-type(3) > div > p,
+main > a:nth-of-type(4) > div > p {
+    font-size: 2em;
+    width: 10em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+/*einde A links zwart/wit*/
+
+
+.signup {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    border: solid;
+    border-color: #ff6602;
+    color: #ff6602;
+
+}
+
+
+/*4 foto's in vierkantje*/
+.vierkantje {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.vierkantje img {
+    width: 45vw;
+    height: 45vw;
+}
+
+/*einde css homepage*/
+
+
+/*p boven de footer*/
+.opacity {
+    display: flex;
+    margin-left: 2em;
+    opacity: 0.5;
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/*CSS footer*/
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    padding-left: 5vw;
+    padding-right: 5vw:
+}
+
+/*div's grijse baan*/
+main > div {
+    position: relative;
+    left: -5vw;
+    width: 100vw;
+    height: 3em;
+    background-color: lightgray;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+/*dropdown footer */
+
+/*Media links footer*/
+.media ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1em;
+    width: 90vw;
+    padding-left: 0;
+}
+
+.media li {
+    display: flex;
+}
+
+.footerimg {
+    width: 20px;
+}
+
+hr {
+    margin: 2em 1em 2em 1em;
+}
+
+.copyright {
+    display: flex;
+    text-align: center;
+    padding-top: 2em;
+    font-size: .7em;
+}
+
+
+/*back to top*/
+.btt {
+    display: flex;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #ff6602;
+    text-decoration: none;
+}
