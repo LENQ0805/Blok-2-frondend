@@ -32,6 +32,51 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -same as voortgang 1-
 
+### Stand van zaken
+-screenshot(s) van hoe ver je bent met korte uitleg-
+
+We gaan langzaam maar gestaagd verder, ik heb nu het hamburger menu in de header in me site er bij. Verder ben ik nog bezin om alles goed te stylen. In de footer moet ik de dropdowns nog maken en daar moet ik de classes nog veranderen naar pseudo paden.
+
+-screenshot's home-
+<img src="images/vooruitgang2.1.png" width="500px" alt="dropdown menu">
+<img src="images/vooruitgang2.2.png" width="500px" alt=" header">
+<img src="images/vooruitgang2.3.png" width="500px" alt=" home">
+<img src="images/vooruitgang2.4.png" width="500px" alt=" home">
+<img src="images/vooruitgang2.5.png" width="500px" alt=" home">
+<img src="images/vooruitgang2.6.png" width="500px" alt=" home">
+
+-screenshot's detailpagina-
+<img src="images/detailpagina2.1.png" width="500px" alt=" detailpagina">
+<img src="images/detailpagina2.2.png" width="500px" alt=" detailpagina">
+<img src="images/detailpagina2.3.png" width="500px" alt=" detailpagina">
+<img src="images/detailpagina2.4.png" width="500px" alt=" detailpagina">
+
+### Agenda voor meeting
+
+| Palenque Groot
+    • Hoe zorg ik er voor dat me menubar sticky wordt.
+    • hoe zorg ik er voor dat je niet kan scrollen als me menu open staat.
+    • Hoe maak ik me button bewegend.
+    • moet ik die flash img aanpassen?
+
+| Sarah de Moes
+    • Hoe gebruik ik de ::before goed voor de strepen
+    • Hoe maak ik me tabbar sticky
+    • Hoe fix ik me tabbar goed
+    • Hoe maak ik de dropdown zoals op de website
+
+| Susan van de Wiel
+    • Hoe los ik de witruimte op (nergens zit een grote width, height, margin of padding op)
+    • Hoe stijl ik de footer? Op internet staan alleen maar moeilijke dingen
+    • Hoe maak ik de functieloze groene balk onder de foto (en hoe gaat deze responsive       mee?)
+    • Hoeveel classes mag je meegeven? Ik heb er nu 1 op de main van de detailpagina, mag     dat wel?
+
+| Suzanne Reesink
+    • Weten hoe ik mijn carousel moet maken?
+    • Hoe ik bij 'waarom sonos' de afbeeldingen over elkaar moet plaatsen en positioneren?
+    • Hoe ik bij 'waarom sonons' die underline kleiner maak?
+    • Hoeveel 'kopjes' ik bij de nieuws pagina moet maken?
+    • Hoe krijg ik bij kerst mijn achtergrond img?
 
 
 ## Voortgang 1 (week 3)
