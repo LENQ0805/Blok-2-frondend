@@ -16,13 +16,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
 /* css voor de header*/
 header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 600px;
+    height: 100vh;
     color: white;
     background-size: cover;
     background-image: url("../imageshome/header.png");
@@ -186,18 +185,22 @@ span {
     color: #ff6602;
 }
 
-main > div:nth-of-type(1),
-div:nth-of-type(3),
-div:nth-of-type(5),
-div:nth-of-type(7),
-div:nth-of-type(9),
-div:nth-of-type(12) {
+/*Divjes voor de afbeeldingen*/
+main.detailPagina > div:nth-of-type(1),
+main.detailPagina > div:nth-of-type(3),
+main.detailPagina > div:nth-of-type(5),
+main.detailPagina > div:nth-of-type(7),
+main.detailPagina > div:nth-of-type(9),
+main.detailPagina > div:nth-of-type(12) {
     width: 100vw;
     height: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
     left: -8vw;
+    flex-direction: column;
+
 }
 
 .GOADVENTURE {
@@ -278,6 +281,13 @@ main > a:nth-of-type(4) > div > h2 {
 /*einde A links zwart/wit*/
 
 
+/*Css Voor de figure's en figcaption*/
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 figure > img {
     width: 80vw;
 }
@@ -288,33 +298,81 @@ figure > img {
     justify-content: center;
 }
 
-.signup {
+/*einde css fig/figcap*/
+main.homePagina > div:nth-of-type(4){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main.homePagina > div:nth-of-type(4) >a{
     display: flex;
     justify-content: center;
-    padding-top: 0.8em;
-    padding-bottom: 0.8em;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
+    width: 5em;
     border: solid;
     border-color: #ff6602;
     color: #ff6602;
+
 }
 
-
-/*4 foto's in vierkantje*/
-.vierkantje {
+.motohall{
+    position: relative;
     display: flex;
-    flex-wrap: wrap;
-    height: 90vw;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.motohall > img{
     width: 90vw;
 }
 
-.vierkantje img {
-    width: 45vw;
-    height: 45vw;
+.motohall > a{
+    padding: 1em;
+    background-color: orange;
+    color: white;
+    width: 20vw;
 }
 
-/*einde css homepage*/
+/*4 foto's in vierkantje(instagram)*/
+.vierkantje {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vw ;
+    width: 100vw;
+}
+
+.vierkantje img {
+    width: 50%;
+    height: 50%;
+}
+
+/*zwartblokje instagram*/
+
+.zwartBlokjeInsta{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    width: 100vw;
+}
+
+.zwartBlokjeInsta p{
+    width: 50vw;
+}
+
+.followus {
+        color: white !important;
+    border: solid;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-color: white;
+
+    }
+
+/*einde css main*/
 
 
 /*p boven de footer*/
@@ -333,17 +391,18 @@ footer {
     background-color: black;
     color: white;
     width: 100vw;
-    padding-left: 5vw;
-    padding-right: 5vw:
+    height: auto;
+
+
 }
 
 /*div's grijse baan*/
-main > div:nth-of-type(2),
-div:nth-of-type(4),
-div:nth-of-type(6),
-div:nth-of-type(8),
-div:nth-of-type(10),
-div:nth-of-type(11) {
+main.detailPagina > div:nth-of-type(2),
+main.detailPagina > div:nth-of-type(4),
+main.detailPagina > div:nth-of-type(6),
+main.detailPagina > div:nth-of-type(8),
+main.detailPagina > div:nth-of-type(10),
+main.detailPagina > div:nth-of-type(11) {
     position: relative;
     left: -5vw;
     width: 100vw;
@@ -353,6 +412,54 @@ div:nth-of-type(11) {
     margin-top: 2em;
 }
 
+/*css voor de dropdown footer*/
+.dropdown{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.dropdown > div{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+    align-self: center;
+    width: 80vw !important;
+}
+
+.dropdown > button{
+    background-color: black;
+    color: white;
+    border-style: none;
+    font-size: 1.2em;
+    margin: .5em;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5sec
+}
+
+.dropdown > button > span{
+    color: white;
+}
+
+.dropdown > div > a{
+color: white;
+
+}
+
+.hiddenDropdown{
+    visibility: hidden;
+    position: absolute;
+}
+
+.dropdownButtonActief > span{
+color: #ff6602 !important;
+    transform: rotate(90deg);
+}
+/*einde css dropdown footer*/
 
 
 /*Media links footer*/
@@ -372,14 +479,14 @@ div:nth-of-type(11) {
 .footerimg {
     width: 2em;
 }
+/*einde css medialinks*/
 
 hr {
     margin: 2em 1em 2em 1em;
+    width: 100vw;
 }
 
 .copyright {
-    display: flex;
-    text-align: center;
     padding-top: 2em;
     font-size: .7em;
 }
@@ -394,4 +501,120 @@ hr {
     font-size: 1.5em;
     color: #ff6602;
     text-decoration: none;
+}
+
+
+
+
+/*Css voor de media query*/
+
+@media screen and (min-width:990px){
+    main > a > div{
+        width: 250px !important;
+        position: relative;
+    }
+    main > a > div >img{
+        width: 100% !important;
+    }
+    main.homePagina{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    main.homePagina > a:nth-of-type(3) > div,   main.homePagina > a:nth-of-type(4) > div{
+        width: 40vw !important;
+        margin:auto;
+    }
+
+    main.homePagina > a:nth-of-type(3) > div > p,   main.homePagina > a:nth-of-type(4) > div > p{
+        position: absolute;
+        top: 30%;
+        color: white;
+    }
+    main.homePagina > a:nth-of-type(3) > div > h2,   main.homePagina > a:nth-of-type(4) > div > h2{
+        position: absolute;
+        top: 50%;
+        color: white;
+    }
+
+    .divfig{
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-around !important;
+        flex-wrap: nowrap;
+        width: 100vw;
+    }
+
+    .divfig > figure{
+        width: 25vw;
+    }
+
+    .divfig > figure > img{
+        width: 100%;
+    }
+
+    .divfig > figure > figcaption > a{
+        font-weight: 900;
+    }
+
+
+    .motohall > a{
+        position: absolute;
+        top: 45%;
+    }
+
+    .vierkantjeEnInsta{
+        display: flex;
+        flex-direction: row;
+        margin-top: 2em;
+    }
+
+    .vierkantje{
+        width: 50vw !important;
+        height: 50vw !important;
+    }
+    .zwartBlokjeInsta{
+        width: 50vw !important;
+    height: 50vw !important;
+
+    }
+
+    main.homePagina > div:nth-of-type(4){
+     display:flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    main.homePagina > div:nth-of-type(4) > p{
+        font-weight: 700;
+    }
+
+
+    main.detailPagina > div:nth-of-type(2),
+main.detailPagina > div:nth-of-type(4),
+main.detailPagina > div:nth-of-type(6),
+main.detailPagina > div:nth-of-type(8),
+main.detailPagina > div:nth-of-type(10),
+main.detailPagina > div:nth-of-type(11) {
+    visibility: hidden;
+}
+      main.detailPagina > div:nth-of-type(1) ,
+main.detailPagina > div:nth-of-type(3),
+main.detailPagina > div:nth-of-type(5),
+main.detailPagina > div:nth-of-type(7),
+main.detailPagina > div:nth-of-type(9),
+main.detailPagina > div:nth-of-type(12){
+    flex-direction: row !important;
+}
+
+    main.detailPagina > div:nth-of-type(1) div,
+main.detailPagina > div:nth-of-type(3) div,
+main.detailPagina > div:nth-of-type(5) div,
+main.detailPagina > div:nth-of-type(7) div,
+main.detailPagina > div:nth-of-type(9) div,
+main.detailPagina > div:nth-of-type(12) div {
+    width: 50vw !important;
+    display: flex;
+    flex-direction: column;
+}
 }

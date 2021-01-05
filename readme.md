@@ -8,7 +8,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. (https://cssreference.io/property/background-size/"css")
 2. (https://css-tricks.com/"css")
-3. -...-
+3. (https://https://validator.w3.org/)
 
 
 
@@ -26,11 +26,27 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -same as voortgang 1-
 
+Ik Ben deze week niet heel veel verder gekomen dan vorige week, dus wat betreft coderen heb ik geen vragen voor iris.
 
+## Agenda voor meeting
+
+| Palenque Groot
+    • Waar kan ik de goede beoordelingsformulier vinden?.
+
+## screen reader
+
+Ik heb de screen reader toegepast op mijn site. De screen reader las door alles heen alleen de links die hij opnoemde kwamen een beetje vaag over. Ik heb de links gewoon over genomen van de ktm website dus daar kan ik niets aan doen. Ik heb ook om het te dubbel checken de screen reader op de echte ktm site geprobeerd en dat was het zelfde.
+
+Gaat de screen reader duidelijk over de header heen?
+- De screen reader leest alles op
+
+Is het duidelijk wat de linkjes doen met de screen reader?
+- De screen reader leest alle titels van de links op, dus dat is goed. Het enige wat een beetje niet klopt is dat de screen reader heel snel praat.
 
 ## Voortgang 2 (week 5)
 
 -same as voortgang 1-
+
 
 ### Stand van zaken
 -screenshot(s) van hoe ver je bent met korte uitleg-
