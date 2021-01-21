@@ -22,7 +22,7 @@ Tijdens het laatste gesprek had ik nod niet alle avv. Verder moest ik de respons
 -screenshot(s) van je eindresultaat-
 
 -screenshot's menu-
-<img src="imageseind/dropdown1" width="500px" alt="dropdown menu">
+<img src="imageseind/dropdown1.png" width="500px" alt="dropdown menu">
 
 -screenshot's home-
 <img src="imageseind/home1.png" width="500px" alt="home ">
