@@ -15,12 +15,26 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+Tijdens het laatste gesprek had ik nod niet alle avv. Verder moest ik de responsiveness van de site nog wat beter maken. Daarnaast werkte mijn github niet dus dat was ook heel vervelend.
 
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
 
+-screenshot's menu-
+<img src="imageseind/dropdown1" width="500px" alt="dropdown menu">
 
+-screenshot's home-
+<img src="imageseind/home1" width="500px" alt="home ">
+<img src="imageseind/home2" width="500px" alt=" home">
+<img src="imageseind/home3" width="500px" alt="home ">
+<img src="imageseind/home4" width="500px" alt="home ">
+<img src="imageseind/home5 kopie" width="500px" alt="home">
+
+-screenshot's detailpagina-
+<img src="imageseind/detail1" width="500px" alt=" detailpagina">
+<img src="imageseind/detail2" width="500px" alt=" detailpagina">
+<img src="imageseind/detail3" width="500px" alt=" detailpagina">
 
 ## Voortgang 3 (week 6)
 

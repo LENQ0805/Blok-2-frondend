@@ -167,8 +167,6 @@ main {
     display: flex;
     align-content: center;
     flex-direction: column;
-    padding-left: 5vw;
-    padding-right: 5vw;
 }
 
 p,
@@ -186,19 +184,18 @@ span {
 }
 
 /*Divjes voor de afbeeldingen*/
-main.detailPagina > div:nth-of-type(1),
 main.detailPagina > div:nth-of-type(3),
-main.detailPagina > div:nth-of-type(5),
-main.detailPagina > div:nth-of-type(7),
-main.detailPagina > div:nth-of-type(9),
-main.detailPagina > div:nth-of-type(12) {
+main.detailPagina > div:nth-of-type(6),
+main.detailPagina > div:nth-of-type(8),
+main.detailPagina > div:nth-of-type(10),
+main.detailPagina > div:nth-of-type(12),
+main.detailPagina > div:nth-of-type(18) {
     width: 100vw;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: -8vw;
     flex-direction: column;
 
 }
@@ -244,7 +241,7 @@ main > a:nth-of-type(2) > div {
 
 main > a:nth-of-type(1) > div > p,
 main > a:nth-of-type(2) > div > p {
-    font-size: 2em;
+    font-size: 1.5em;
     width: 10em;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -252,8 +249,9 @@ main > a:nth-of-type(2) > div > p {
 }
 
 /*a met witte achtergrond*/
-main > a:nth-of-type(3) > div,
-main > a:nth-of-type(4) > div {
+
+main.homePagina > div:nth-of-type(1) > a:nth-of-type(1) > div, main.homePagina > div:nth-of-type(1) > a:nth-of-type(2) > div
+ {
     width: 100%;
     background-color: white;
     color: black;
@@ -262,9 +260,7 @@ main > a:nth-of-type(4) > div {
     align-items: center;
     margin-bottom: 1.5em;
 }
-
-main > a:nth-of-type(3) > div > p,
-main > a:nth-of-type(4) > div > p {
+main.homePagina > div:nth-of-type(1) > a:nth-of-type(1) > div > p, main.homePagina > div:nth-of-type(1) > a:nth-of-type(2) > div > p{
     font-size: .8em;
     font-weight: 600;
     width: 10em;
@@ -272,9 +268,8 @@ main > a:nth-of-type(4) > div > p {
     margin-bottom: .1em;
     text-align: center;
 }
-
-main > a:nth-of-type(3) > div > h2,
-main > a:nth-of-type(4) > div > h2 {
+main.homePagina > div:nth-of-type(1) > a:nth-of-type(1) > div > h2, main.homePagina > div:nth-of-type(1) > a:nth-of-type(2) > div > h2
+ {
     margin-top: 0.1em;
 }
 
@@ -282,7 +277,7 @@ main > a:nth-of-type(4) > div > h2 {
 
 
 /*Css Voor de figure's en figcaption*/
-figure{
+figure {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -298,24 +293,40 @@ figure > img {
     justify-content: center;
 }
 
+div.divfig > figure > figcaption > a {
+    font-weight: 700;
+}
+
 /*einde css fig/figcap*/
-main.homePagina > div:nth-of-type(4){
+main.homePagina > div:nth-of-type(4) {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-main.homePagina > div:nth-of-type(4) >a{
+main.homePagina > div:nth-of-type(5) > a {
     display: flex;
     justify-content: center;
-    width: 5em;
+    width: 8em;
     border: solid;
     border-color: #ff6602;
     color: #ff6602;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
-.motohall{
+main.detailPagina > a:nth-of-type(4) {
+    color: #ff6602;
+    border: solid;
+    border-color: #ff6602;
+    width: 15em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.motohall {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -323,22 +334,29 @@ main.homePagina > div:nth-of-type(4) >a{
 
 }
 
-.motohall > img{
+.motohall > img {
     width: 90vw;
 }
 
-.motohall > a{
+.motohall > a {
     padding: 1em;
     background-color: orange;
     color: white;
     width: 20vw;
 }
 
+.signup {
+    margin-top: 1em;
+    width: 100vw;
+    height: 0.1em;
+    background-color: grey;
+}
+
 /*4 foto's in vierkantje(instagram)*/
 .vierkantje {
     display: flex;
     flex-wrap: wrap;
-    height: 100vw ;
+    height: 100vw;
     width: 100vw;
 }
 
@@ -349,42 +367,66 @@ main.homePagina > div:nth-of-type(4) >a{
 
 /*zwartblokje instagram*/
 
-.zwartBlokjeInsta{
+.zwartBlokjeInsta {
     background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 40vh;
+    height: 60vh;
     width: 100vw;
 }
 
-.zwartBlokjeInsta p{
-    width: 50vw;
+.zwartBlokjeInsta > p:nth-of-type(1){
+    font-weight: 700;
+    font-size: 3em;
+    width: 40vw;
 }
 
+.zwartBlokjeInsta > p:nth-of-type(2){
+    font-weight: 200;
+    width: 40vw;
+}
+
+.zwartBlokjeInsta > div {
+    width: 6em;
+    background-color: white;
+    height: 0.1em;
+}
+
+
+
 .followus {
-        color: white !important;
+    color: white !important;
     border: solid;
     padding-left: 1.5em;
     padding-right: 1.5em;
     border-color: white;
 
-    }
+}
 
 /*einde css main*/
 
 
 /*p boven de footer*/
-.opacity {
-    display: flex;
-    margin-left: 2em;
+.opacity, .opacitydetail  {
     opacity: 0.5;
-    display: flex;
     padding-top: 1em;
     padding-bottom: 1em;
+    width: 60vw;
+
 }
 
+.opacitydetail {
+margin-left: 20vw;
+}
+
+
+ main.homePagina {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 /*CSS footer*/
 
 footer {
@@ -397,14 +439,13 @@ footer {
 }
 
 /*div's grijse baan*/
-main.detailPagina > div:nth-of-type(2),
-main.detailPagina > div:nth-of-type(4),
-main.detailPagina > div:nth-of-type(6),
-main.detailPagina > div:nth-of-type(8),
-main.detailPagina > div:nth-of-type(10),
-main.detailPagina > div:nth-of-type(11) {
+main.detailPagina > div:nth-of-type(5),
+main.detailPagina > div:nth-of-type(7),
+main.detailPagina > div:nth-of-type(9),
+main.detailPagina > div:nth-of-type(11),
+main.detailPagina > div:nth-of-type(13),
+main.detailPagina > div:nth-of-type(17) {
     position: relative;
-    left: -5vw;
     width: 100vw;
     height: 3em;
     background-color: lightgray;
@@ -412,23 +453,31 @@ main.detailPagina > div:nth-of-type(11) {
     margin-top: 2em;
 }
 
+/*div dunne grijse baan*/
+.lijntje {
+    margin-top: 1em;
+    height: 0.1em;
+    width: 100vw;
+    background-color: grey;
+}
+
 /*css voor de dropdown footer*/
-.dropdown{
-display: flex;
+.dropdown {
+    display: flex;
     flex-direction: column;
     align-items: center;
     width: 100vw;
 }
 
-.dropdown > div{
-display: flex;
-flex-direction: column;
-align-items: flex-start;
+.dropdown > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     align-self: center;
     width: 80vw !important;
 }
 
-.dropdown > button{
+.dropdown > button {
     background-color: black;
     color: white;
     border-style: none;
@@ -441,25 +490,33 @@ align-items: flex-start;
     transition: .5sec
 }
 
-.dropdown > button > span{
+.dropdown > button > span {
     color: white;
 }
 
-.dropdown > div > a{
-color: white;
+.dropdown > div > a {
+    color: white;
 
 }
 
-.hiddenDropdown{
+.hiddenDropdown {
     visibility: hidden;
     position: absolute;
 }
 
-.dropdownButtonActief > span{
-color: #ff6602 !important;
+.dropdownButtonActief > span {
+    color: #ff6602 !important;
     transform: rotate(90deg);
 }
+
 /*einde css dropdown footer*/
+
+.lijntjefooter {
+    margin-top: 1em;
+    height: 0.1em;
+    width: 100vw;
+    background-color: white;
+}
 
 
 /*Media links footer*/
@@ -479,12 +536,15 @@ color: #ff6602 !important;
 .footerimg {
     width: 2em;
 }
+
+footer > div:nth-of-type(2) > p {
+    display: flex;
+    align-content: flex-start;
+    margin-left: 6.3em;
+}
+
 /*einde css medialinks*/
 
-hr {
-    margin: 2em 1em 2em 1em;
-    width: 100vw;
-}
 
 .copyright {
     padding-top: 2em;
@@ -508,37 +568,57 @@ hr {
 
 /*Css voor de media query*/
 
-@media screen and (min-width:990px){
-    main > a > div{
+@media screen and (min-width:990px) {
+    main > a > div {
         width: 250px !important;
-        position: relative;
     }
-    main > a > div >img{
+
+    main > a > div > img {
         width: 100% !important;
     }
-    main.homePagina{
+
+
+    main.homePagina > div:nth-of-type(1) {
+       position: relative;
+        display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        align-content: center;
     }
 
-    main.homePagina > a:nth-of-type(3) > div,   main.homePagina > a:nth-of-type(4) > div{
+    .GETDUKED, .GOADVENTURE {
         width: 40vw !important;
-        margin:auto;
+        margin: auto;
     }
 
-    main.homePagina > a:nth-of-type(3) > div > p,   main.homePagina > a:nth-of-type(4) > div > p{
+    main.homePagina > div:nth-of-type(1) > a:nth-of-type(1) > div > p{
         position: absolute;
         top: 30%;
-        color: white;
-    }
-    main.homePagina > a:nth-of-type(3) > div > h2,   main.homePagina > a:nth-of-type(4) > div > h2{
-        position: absolute;
-        top: 50%;
+        left: 15%;
         color: white;
     }
 
-    .divfig{
+    main.homePagina > div:nth-of-type(1) > a:nth-of-type(2) > div > p {
+        position: absolute;
+        top: 30%;
+        left: 65%;
+        color: white;
+    }
+
+    main.homePagina > div:nth-of-type(1) > a:nth-of-type(1) > div > h2 {
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        color: white;
+    }
+
+    main.homePagina > div:nth-of-type(1) > a:nth-of-type(2) > div > h2{
+         position: absolute;
+        top: 50%;
+        left: 65%;
+        color: white;
+    }
+
+    .divfig {
         display: flex;
         flex-direction: row !important;
         justify-content: space-around !important;
@@ -546,75 +626,95 @@ hr {
         width: 100vw;
     }
 
-    .divfig > figure{
+    .divfig > figure {
         width: 25vw;
     }
 
-    .divfig > figure > img{
+    .divfig > figure > img {
         width: 100%;
     }
 
-    .divfig > figure > figcaption > a{
+    .divfig > figure > figcaption > a {
         font-weight: 900;
     }
 
 
-    .motohall > a{
+    .motohall > a {
         position: absolute;
         top: 45%;
     }
 
-    .vierkantjeEnInsta{
+    .vierkantjeEnInsta {
         display: flex;
         flex-direction: row;
         margin-top: 2em;
     }
 
-    .vierkantje{
+    .vierkantje {
         width: 50vw !important;
         height: 50vw !important;
+
     }
-    .zwartBlokjeInsta{
+
+    .zwartBlokjeInsta {
         width: 50vw !important;
-    height: 50vw !important;
+        height: 50vw !important;
 
     }
 
-    main.homePagina > div:nth-of-type(4){
-     display:flex;
+    main.homePagina > div:nth-of-type(4) {
+        display: flex;
         justify-content: center;
         flex-direction: row;
     }
-    main.homePagina > div:nth-of-type(4) > p{
+
+    main.homePagina > div:nth-of-type(4) > p {
         font-weight: 700;
     }
 
+    /*   css voor detailpagina */
+    main.detailPagina > div:nth-of-type(3) > img,
+    main.detailPagina > div:nth-of-type(6) > img,
+    main.detailPagina > div:nth-of-type(8) > img,
+    main.detailPagina > div:nth-of-type(10) > img,
+    main.detailPagina > div:nth-of-type(12) > img,
+    main.detailPagina > div:nth-of-type(18) > img {
+        width: 30vw;
+        margin-left: 5em;
+    }
 
-    main.detailPagina > div:nth-of-type(2),
-main.detailPagina > div:nth-of-type(4),
-main.detailPagina > div:nth-of-type(6),
-main.detailPagina > div:nth-of-type(8),
-main.detailPagina > div:nth-of-type(10),
-main.detailPagina > div:nth-of-type(11) {
-    visibility: hidden;
-}
-      main.detailPagina > div:nth-of-type(1) ,
-main.detailPagina > div:nth-of-type(3),
-main.detailPagina > div:nth-of-type(5),
-main.detailPagina > div:nth-of-type(7),
-main.detailPagina > div:nth-of-type(9),
-main.detailPagina > div:nth-of-type(12){
-    flex-direction: row !important;
-}
+    main.detailPagina > h2 {
+        display: flex;
+        align-content: flex-start;
+    }
 
-    main.detailPagina > div:nth-of-type(1) div,
-main.detailPagina > div:nth-of-type(3) div,
-main.detailPagina > div:nth-of-type(5) div,
-main.detailPagina > div:nth-of-type(7) div,
-main.detailPagina > div:nth-of-type(9) div,
-main.detailPagina > div:nth-of-type(12) div {
-    width: 50vw !important;
-    display: flex;
-    flex-direction: column;
-}
+    main.detailPagina > div:nth-of-type(3) > p,
+    main.detailPagina > div:nth-of-type(6) > p,
+    main.detailPagina > div:nth-of-type(8) > p,
+    main.detailPagina > div:nth-of-type(10) > p,
+    main.detailPagina > div:nth-of-type(12) > p,
+    main.detailPagina > div:nth-of-type(18) > p {
+        width: 60vw;
+    }
+
+    main.detailPagina > div:nth-of-type(3),
+    main.detailPagina > div:nth-of-type(6),
+    main.detailPagina > div:nth-of-type(8),
+    main.detailPagina > div:nth-of-type(10),
+    main.detailPagina > div:nth-of-type(12),
+    main.detailPagina > div:nth-of-type(18) {
+        flex-direction: row !important;
+        margin-left 10em;
+    }
+
+    main.detailPagina > div:nth-of-type(3),
+    main.detailPagina > div:nth-of-type(6),
+    main.detailPagina > div:nth-of-type(8),
+    main.detailPagina > div:nth-of-type(10),
+    main.detailPagina > div:nth-of-type(12),
+    main.detailPagina > div:nth-of-type(18) {
+        width: 100vw !important;
+        display: flex;
+        flex-direction: column;
+    }
 }
